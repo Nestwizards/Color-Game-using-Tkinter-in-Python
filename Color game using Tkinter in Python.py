@@ -62,7 +62,7 @@ window.title("Color Game")
 window.geometry("500x200")
 
 app_font = font.Font(family='Verdana', size = 12)
-game_desp = "Game Description: Enter the color of the words displayed below. \n And Keep in mind not to enter the word text itself"
+game_desp = "Game Description: Enter the color of the words displayed below. \n Do not enter the color of word text"
 myFont = font.Font(family='Verdana')
 
 game_description = Label(window, text = game_desp, font = app_font, fg= "black")
